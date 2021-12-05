@@ -1,6 +1,5 @@
 import { Cat } from './Cat'
 import { Dog } from './Dog'
-import { Slots } from './Slots';
 import { JustChildren } from './JustChildren'
 import { Wrapper } from './Wrapper';
 
@@ -9,8 +8,8 @@ export function App() {
     <Wrapper>
       Hello world!
       <JustChildren>
-        <Cat />
         <Dog />
+        <Cat />
       </JustChildren>
     </Wrapper>
   )
