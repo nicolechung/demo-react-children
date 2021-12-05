@@ -54,14 +54,14 @@ With components:
 ```jsx
 import { Cat } from './Cat'
 import { Dog } from './Dog'
-import { Slots } from './Slots';
 import { Wrapper } from './Wrapper';
+import { Slots } from './Slots'
 
 export function App() {
   return (
     <Wrapper>
       Hello world!
-      <Slots left={<Cat />} right={<Dog />} />
+      <Slots left={Cat} right={Dog} />
     </Wrapper>
   )
 }
@@ -89,3 +89,5 @@ export function App() {
   )
 }
 ```
+
+![just using React.Children.map example](./img/just_children.png)
