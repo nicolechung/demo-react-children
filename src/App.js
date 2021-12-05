@@ -8,10 +8,7 @@ export function App() {
   return (
     <Wrapper>
       Hello world!
-      <JustChildren>
-        <Cat />
-        <Dog />
-      </JustChildren>
+      <Slots />
     </Wrapper>
   )
 }
