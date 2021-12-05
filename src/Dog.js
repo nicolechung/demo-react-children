@@ -1,7 +1,7 @@
-export const Dog = ({className}) => (
+export const Dog = ({className, text}) => (
   <h2>
-    <span role="img" aria-label="Dog" className={`text-7xl ${className ? className : ''}`}>
-      🐶 🦴 🐶 🦴
+    <span role="img" aria-label="Dog" className={`text-6xl ${className ? className : ''}`}>
+      {text} 🐶 🦴 🐶 🦴
     </span>
   </h2>
 );

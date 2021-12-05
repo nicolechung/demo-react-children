@@ -1,7 +1,7 @@
-export const Cat = ({className}) => (
+export const Cat = ({className, text}) => (
   <h2>
-    <span role="img" aria-label="Cat" className={`text-7xl ${className ? className : ''}`}>
-      😹 🐈 😹 🐈
+    <span role="img" aria-label="Cat" className={`text-6xl ${className ? className : ''}`}>
+      {text} 😹 🐈 😹 🐈
     </span>
   </h2>
 );

@@ -1,13 +1,16 @@
-// import { Cat } from './Cat'
-// import { Dog } from './Dog'
-import { Slots } from './Slots';
+import { Cat } from './Cat'
+import { Dog } from './Dog'
+import { JustChildren } from './JustChildren'
 import { Wrapper } from './Wrapper';
 
 export function App() {
   return (
     <Wrapper>
       Hello world!
-      <Slots  />
+      <JustChildren>
+        <Dog />
+        <Cat />
+      </JustChildren>
     </Wrapper>
   )
 }
