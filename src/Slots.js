@@ -2,8 +2,12 @@ export const Slots = ({left, right}) => {
   // to make react happy, switch to capitalize
   const Left = left
   const Right = right
-  // imagine the props being passed here are
-  // from some internal state inside of this component
+
+  /**
+   * Imagine the props being passed along here are
+   * from some internal state specific to this component.
+   * Example: Modals, Banner, Toggle, Alert
+   */
   return (
   <div class="grid grid-cols-2 gap-4">
     <div><Left text="Meow" /></div>
