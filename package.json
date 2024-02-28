@@ -4,7 +4,7 @@
     "start": "parcel src/index.html"
   },
   "devDependencies": {
-    "parcel": "2.0.1"
+    "parcel": "2.12.0"
   },
   "dependencies": {
     "autoprefixer": "10.4.1",
